@@ -1,9 +1,9 @@
 import React from 'react'
 
-const svm = () => {
+const SVM = () => {
   return (
     <div>svm</div>
   )
 }
 
-export default svm
+export default SVM
