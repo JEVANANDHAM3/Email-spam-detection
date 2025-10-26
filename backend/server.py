@@ -16,8 +16,8 @@ async def life_cycle(app: FastAPI):
     global vectorise
     global decision_tree_model
     
-    vectorise = joblib.load("C:/all projects/BDML/backend/model/weights/dec_vectorizer.pkl")
-    decision_tree_model = joblib.load("C:/all projects/BDML/backend/model/weights/spam_detection_model.pkl")
+    vectorise = joblib.load("./model/weights/dec_vectorizer.pkl")
+    decision_tree_model = joblib.load("./model/weights/spam_detection_model.pkl")
     
     yield
 

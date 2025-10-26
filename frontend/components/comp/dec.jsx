@@ -48,9 +48,9 @@ const DecisionTree = () => {
 
   const handleClose = () => {
     setOpen(false);
-    // setTitle('');
-    // setDescription('');
-    // setResult('');
+    setTitle('');
+    setDescription('');
+    setResult('');
   };
 
   return (
